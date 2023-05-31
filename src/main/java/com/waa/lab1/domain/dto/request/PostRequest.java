@@ -1,10 +1,8 @@
 package com.waa.lab1.domain.dto.request;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Setter
-@Getter
+@Data
 public class PostRequest {
     private String title;
     private String content;

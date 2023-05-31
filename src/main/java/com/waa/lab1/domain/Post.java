@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Post {
 
     private long id;
@@ -21,3 +21,7 @@ public class Post {
     }
 
 }
+
+
+
+

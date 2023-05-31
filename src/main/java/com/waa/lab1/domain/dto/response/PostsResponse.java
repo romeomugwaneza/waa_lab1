@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class PostsResponse {
 
     List<PostResponse> postsResponse = new ArrayList<>();
